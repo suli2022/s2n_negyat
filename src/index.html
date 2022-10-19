@@ -13,20 +13,35 @@ Licenc: GNU GPL
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>0359</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="app.js" defer></script>
 </head>
 <body>
 
-    <div class="container">
+    <div class="container bg-primary p-3 mt-3">
         <h1>Feladat 0359</h1>
         <div class="bekero">
             <label for="oldal">Oldal</label>
-            <input type="text" id="oldal">
+            <input type="text" id="oldal"
+            class="m-1">
             <br>
-            <button id="szamitGomb">Számít</button>
+            <button id="szamitGomb"
+            class="btn btn-info">
+                Számít</button>
             <div id="eredmeny"></div>
         </div>
+    
     </div>
+
+    <div class="container">
+        <div 
+        class="bg-info mt-3 text-center p-1">
+            Nagy János Szoft II N 2022-10-19
+        </div>
+    </div>
+
+
     
 </body>
 </html>
